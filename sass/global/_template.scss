@@ -80,10 +80,15 @@ body {
 
 .principal-section {
     padding: 20px 40px;
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
     h5 {
+        margin: auto;
         margin-top: 8px;
-        margin-bottom: 8px;
-        width: 60px;
+        margin-bottom: 12px;
+        width: 100px;
         border-radius: 10px;
         border-bottom: 6px solid var(--blackColor);
     }
