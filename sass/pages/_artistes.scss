@@ -42,6 +42,27 @@
             }
         }
     }
+    .view-in-details {
+        display: flex;
+        margin-top: 10px;
+        justify-content: flex-end;
+        div {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 10px 15px;
+            width: fit-content;
+            background-color: var(--whiteColor);
+            a {
+                color: var(--blackColor);
+            }
+        }
+        &:hover {
+            transition: 0.8s;
+            transition-delay: 0.2s;
+            transform: translateY(10px);
+        }
+    }
     &:hover {
         transition: 0.8s;
         transition-delay: 0.2s;
