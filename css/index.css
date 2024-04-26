@@ -176,6 +176,24 @@ button {
   margin-top: 20px;
 }
 
+.view-approved-artist {
+  display: flex;
+  margin-top: 10px;
+  justify-content: flex-end;
+}
+.view-approved-artist div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 15px;
+  width: fit-content;
+  background-color: var(--whiteColor);
+  box-shadow: 0px 5px 10px var(--grayShadow);
+}
+.view-approved-artist div a {
+  color: var(--blackColor);
+}
+
 .artistes {
   width: 100%;
   padding: 15px 15px;
@@ -222,6 +240,7 @@ button {
   padding: 10px 15px;
   width: fit-content;
   background-color: var(--whiteColor);
+  box-shadow: 0px 5px 10px var(--grayShadow);
 }
 .artistes .view-in-details div a {
   color: var(--blackColor);
