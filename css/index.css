@@ -96,6 +96,32 @@ button {
 .oeuvre .image-container:hover img {
   transform: scale(1.1);
 }
+.oeuvre strong {
+  font-size: 0.8rem;
+}
 .oeuvre span {
   opacity: 0.4;
+  font-size: 0.8rem;
+}
+.oeuvre .edit-oeuvre {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  -webkit-column-gap: 5px;
+}
+.oeuvre .edit-oeuvre button {
+  transition: 0.8s;
+  transition-delay: 0.2s;
+  background: unset;
+}
+.oeuvre .edit-oeuvre button i {
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: var(--whiteColor);
+  background: linear-gradient(100deg, var(--whiteColor), var(--blackColor));
+}
+.oeuvre .edit-oeuvre button:hover {
+  transform: translateY(6px);
 }/*# sourceMappingURL=index.css.map */

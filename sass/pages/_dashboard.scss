@@ -18,7 +18,33 @@
             transform: scale(1.1);
         }
     }
+    strong {
+        font-size: 0.8rem;
+    }
     span {
         opacity: 0.4;
+        font-size: 0.8rem;
+    }
+    .edit-oeuvre {
+        display: flex;
+        justify-content: flex-end;
+        gap: 5px;
+        -webkit-column-gap: 5px;
+        button {
+            transition: 0.8s;
+            transition-delay: 0.2s;
+            background: unset;
+            i {
+                padding: 10px;
+                border-radius: 50%;
+                font-size: 0.8rem;
+                cursor: pointer;
+                color: var(--whiteColor);
+                background: linear-gradient(100deg, var(--whiteColor), var(--blackColor));
+            }
+            &:hover {
+                transform: translateY(6px);
+            }
+        }
     }
 }
