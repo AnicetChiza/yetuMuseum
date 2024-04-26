@@ -179,6 +179,7 @@ button {
 .view-approved-artist {
   display: flex;
   margin-top: 10px;
+  gap: 10px;
   justify-content: flex-end;
 }
 .view-approved-artist div {
