@@ -14,10 +14,7 @@
     transition-delay: 0.2s;
     background-color: var(--grayShadow);
     &:hover {
-        transform: translateY(10px);
-    }
-    p {
-        font-style: italic;
+        transform: translateY(20px);
     }
     .image-container {
         overflow: hidden;
@@ -32,10 +29,12 @@
     }
     strong {
         font-size: 0.8rem;
+        font-style: italic;
     }
     span {
         opacity: 0.4;
         font-size: 0.8rem;
+        font-style: italic;
     }
     .edit-oeuvre {
         display: flex;
@@ -51,8 +50,9 @@
                 border-radius: 50%;
                 font-size: 0.8rem;
                 cursor: pointer;
-                color: var(--whiteColor);
-                background: linear-gradient(100deg, var(--whiteColor), var(--blackColor));
+                border: 2px dotted var(--blackColor);
+                //color: var(--whiteColor);
+                //background: linear-gradient(100deg, var(--whiteColor), var(--blackColor));
             }
             &:hover {
                 transform: translateY(6px);

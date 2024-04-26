@@ -92,10 +92,7 @@ button {
   background-color: var(--grayShadow);
 }
 .oeuvre:hover {
-  transform: translateY(10px);
-}
-.oeuvre p {
-  font-style: italic;
+  transform: translateY(20px);
 }
 .oeuvre .image-container {
   overflow: hidden;
@@ -110,10 +107,12 @@ button {
 }
 .oeuvre strong {
   font-size: 0.8rem;
+  font-style: italic;
 }
 .oeuvre span {
   opacity: 0.4;
   font-size: 0.8rem;
+  font-style: italic;
 }
 .oeuvre .edit-oeuvre {
   display: flex;
@@ -131,8 +130,7 @@ button {
   border-radius: 50%;
   font-size: 0.8rem;
   cursor: pointer;
-  color: var(--whiteColor);
-  background: linear-gradient(100deg, var(--whiteColor), var(--blackColor));
+  border: 2px dotted var(--blackColor);
 }
 .oeuvre .edit-oeuvre button:hover {
   transform: translateY(6px);
