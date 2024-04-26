@@ -86,17 +86,22 @@ button {
   width: 100%;
   height: fit-content;
   padding: 20px 20px;
-  border-radius: 10px;
   margin-top: 30px;
+  transition: 0.8s;
+  transition-delay: 0.2s;
   background-color: var(--grayShadow);
+}
+.oeuvre:hover {
+  transform: translateY(10px);
+}
+.oeuvre p {
+  font-style: italic;
 }
 .oeuvre .image-container {
   overflow: hidden;
-  border-radius: 10px;
 }
 .oeuvre .image-container img {
   width: 100%;
-  border-radius: 10px;
   margin-bottom: 20px;
   transition: transform 0.3s ease;
 }
