@@ -50,9 +50,13 @@
                 border-radius: 50%;
                 font-size: 0.8rem;
                 cursor: pointer;
-                border: 2px dotted var(--blackColor);
+                background-color: var(--whiteColor);
+                //border: 1px solid var(--blackColor);
                 //color: var(--whiteColor);
                 //background: linear-gradient(100deg, var(--whiteColor), var(--blackColor));
+            }
+            .fa-trash-can {
+                color: rgb(205, 84, 84);
             }
             &:hover {
                 transform: translateY(6px);
