@@ -3,14 +3,14 @@
 :root {
   --whiteCOlor: #fff;
   --blackColor: #212121;
-  --grayShadow: #dfdcdc74;
+  --grayShadow: #dbd9d937;
 }
 
 /*** BODY PROPERTIES ***/
 body {
   width: 100%;
   font-size: 1rem;
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /*** HEADER ***/
@@ -18,10 +18,28 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0px 5px 10px solid var(--grayShadow);
+  padding: 10px 20px;
+  box-shadow: 0px 5px 10px var(--grayShadow);
 }
 header img {
   width: 8rem;
+}
+header .header-option {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  -webkit-column-gap: 15px;
+}
+header .header-option a {
+  color: var(--blackColor);
+}
+header .header-option button {
+  display: flex;
+  align-items: center;
+  padding: 5px 8px;
+  gap: 5px;
+  -webkit-column-gap: 5px;
+  font-family: "Poppins", sans-serif;
 }
 
 /*** RESET ***/
@@ -30,4 +48,10 @@ header img {
   padding: 0;
   text-decoration: none;
   box-sizing: border-box;
+}
+
+/*** FOR ALL THE BUTTPONS ***/
+button {
+  border: none;
+  outline: none;
 }/*# sourceMappingURL=index.css.map */
