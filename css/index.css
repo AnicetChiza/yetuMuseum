@@ -77,12 +77,25 @@ button {
 }
 
 .oeuvre {
+  width: 25%;
   padding: 20px 20px;
   border-radius: 10px;
-  width: fit-content;
+  margin-top: 30px;
   background-color: var(--grayShadow);
 }
-.oeuvre img {
-  width: 300px;
+.oeuvre .image-container {
+  overflow: hidden;
   border-radius: 10px;
+}
+.oeuvre .image-container img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+.oeuvre .image-container:hover img {
+  transform: scale(1.1);
+}
+.oeuvre span {
+  opacity: 0.4;
 }/*# sourceMappingURL=index.css.map */

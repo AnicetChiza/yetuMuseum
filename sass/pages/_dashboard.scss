@@ -1,11 +1,24 @@
 @use '../utils/' as u;
 .oeuvre {
+    width: 25%;
     padding: 20px 20px;
     border-radius: 10px;
-    width: fit-content;
+    margin-top: 30px;
     background-color: var(--grayShadow);
-    img {
-        width: 300px;
+    .image-container {
+        overflow: hidden;
         border-radius: 10px;
+        img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+        &:hover img {
+            transform: scale(1.1);
+        }
+    }
+    span {
+        opacity: 0.4;
     }
 }
