@@ -12,13 +12,14 @@ body {
 /*** HEADER ***/
 
 header {
+    width: 100%;
+    position: fixed;
+    z-index: 5;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 40px;
-    position: fixed;
-    z-index: 5;
-    width: 100%;
+    background-color: var(--whiteColor);
     box-shadow: 0px 5px 10px var(--grayShadow);
     img {
         width: 8rem;
@@ -43,5 +44,19 @@ header {
             border: 1px dashed var(--blackColor);
             //box-shadow: 0px 20px 20px var(--grayShadow);
         }
+    }
+}
+
+//PRINCIPAL SECTION
+.principal-section {
+    padding: 20px 40px;
+    h3 {
+        margin-top: 80px;
+    }
+    h5 {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        width: 60px;
+        border-bottom: 2px dashed var(--blackColor);
     }
 }
