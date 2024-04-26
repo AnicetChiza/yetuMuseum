@@ -1,0 +1,35 @@
+@use '../utils/' as u;
+.artistes {
+    padding: 15px 15px;
+    background-color: var(--grayShadow);
+    .artistes-identity {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        -webkit-column-gap: 10px;
+        img {
+            width: 8rem;
+            border-radius: 50%;
+        }
+    }
+    .approved-icons {
+        display: flex;
+        margin-top: 15px;
+        align-items: center;
+        gap: 10px;
+        .erase,
+        .accept {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 10px 15px;
+            background-color: var(--whiteColor);
+        }
+        .erase {
+            i,
+            p {
+                color: red;
+            }
+        }
+    }
+}

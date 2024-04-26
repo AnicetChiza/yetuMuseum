@@ -167,4 +167,37 @@ button {
 }
 .oeuvre .edit-oeuvre button:hover {
   transform: translateY(6px);
+}
+
+.artistes {
+  padding: 15px 15px;
+  background-color: var(--grayShadow);
+}
+.artistes .artistes-identity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  -webkit-column-gap: 10px;
+}
+.artistes .artistes-identity img {
+  width: 8rem;
+  border-radius: 50%;
+}
+.artistes .approved-icons {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  gap: 10px;
+}
+.artistes .approved-icons .erase,
+.artistes .approved-icons .accept {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 15px;
+  background-color: var(--whiteColor);
+}
+.artistes .approved-icons .erase i,
+.artistes .approved-icons .erase p {
+  color: red;
 }/*# sourceMappingURL=index.css.map */
