@@ -63,4 +63,27 @@
             }
         }
     }
+    .approved-articles {
+        display: flex;
+        margin-top: 15px;
+        align-items: center;
+        //justify-content: center;
+        gap: 10px;
+        .erase,
+        .accept {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            gap: 5px;
+            padding: 10px 15px;
+            background-color: var(--whiteColor);
+        }
+        .erase {
+            i,
+            p {
+                color: red;
+            }
+        }
+    }
 }

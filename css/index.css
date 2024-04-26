@@ -170,6 +170,26 @@ input {
 .oeuvre .edit-oeuvre button:hover {
   transform: translateY(6px);
 }
+.oeuvre .approved-articles {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  gap: 10px;
+}
+.oeuvre .approved-articles .erase,
+.oeuvre .approved-articles .accept {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  padding: 10px 15px;
+  background-color: var(--whiteColor);
+}
+.oeuvre .approved-articles .erase i,
+.oeuvre .approved-articles .erase p {
+  color: red;
+}
 
 .artistes-container {
   display: grid;
