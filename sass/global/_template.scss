@@ -16,6 +16,9 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 10px 40px;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
     box-shadow: 0px 5px 10px var(--grayShadow);
     img {
         width: 8rem;
@@ -33,13 +36,12 @@ header {
             align-items: center;
             padding: 10px 15px;
             gap: 5px;
-            -webkit-column-gap: 5px;
+            background: none;
             font-family: u.$font;
-            background-color: var(--blackColor);
-            i,
-            p {
-                color: var(--whiteColor);
-            }
+            border-radius: 30px;
+            -webkit-column-gap: 5px;
+            border: 1px dashed var(--blackColor);
+            //box-shadow: 0px 20px 20px var(--grayShadow);
         }
     }
 }

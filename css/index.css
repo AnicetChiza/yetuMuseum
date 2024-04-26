@@ -10,7 +10,7 @@
 body {
   width: 100%;
   font-size: 1rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "Albert Sans", sans-serif;
 }
 
 /*** HEADER ***/
@@ -19,6 +19,9 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 10px 40px;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
   box-shadow: 0px 5px 10px var(--grayShadow);
 }
 header img {
@@ -38,13 +41,11 @@ header .header-option button {
   align-items: center;
   padding: 10px 15px;
   gap: 5px;
+  background: none;
+  font-family: "Albert Sans", sans-serif;
+  border-radius: 30px;
   -webkit-column-gap: 5px;
-  font-family: "Poppins", sans-serif;
-  background-color: var(--blackColor);
-}
-header .header-option button i,
-header .header-option button p {
-  color: var(--whiteColor);
+  border: 1px dashed var(--blackColor);
 }
 
 /*** RESET ***/
