@@ -31,10 +31,15 @@ header {
         button {
             display: flex;
             align-items: center;
-            padding: 5px 8px;
+            padding: 10px 15px;
             gap: 5px;
             -webkit-column-gap: 5px;
             font-family: u.$font;
+            background-color: var(--blackColor);
+            i,
+            p {
+                color: var(--whiteColor);
+            }
         }
     }
 }

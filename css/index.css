@@ -1,7 +1,7 @@
 /*** FONT FAMILY ***/
 /*** COLORS ***/
 :root {
-  --whiteCOlor: #fff;
+  --whiteColor: #fff;
   --blackColor: #212121;
   --grayShadow: #dbd9d937;
 }
@@ -36,10 +36,15 @@ header .header-option a {
 header .header-option button {
   display: flex;
   align-items: center;
-  padding: 5px 8px;
+  padding: 10px 15px;
   gap: 5px;
   -webkit-column-gap: 5px;
   font-family: "Poppins", sans-serif;
+  background-color: var(--blackColor);
+}
+header .header-option button i,
+header .header-option button p {
+  color: var(--whiteColor);
 }
 
 /*** RESET ***/
