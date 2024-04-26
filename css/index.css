@@ -3,7 +3,7 @@
 :root {
   --whiteColor: #fff;
   --blackColor: #212121;
-  --grayShadow: #dbd9d937;
+  --grayShadow: #dbd9d9ae;
 }
 
 /*** BODY PROPERTIES ***/
@@ -101,7 +101,8 @@ body {
 }
 
 /*** FOR ALL THE BUTTPONS ***/
-button {
+button,
+input {
   border: none;
   outline: none;
   font-family: "Albert Sans", sans-serif;
@@ -256,4 +257,43 @@ button {
   transition: 0.8s;
   transition-delay: 0.2s;
   transform: translateY(10px);
+}
+
+.articles {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--grayShadow);
+}
+.articles .add-article {
+  padding: 30px 30px;
+  background-color: var(--whiteColor);
+}
+.articles .add-article div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+.articles .add-article div input,
+.articles .add-article div textarea {
+  width: 500px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid var(--grayShadow);
+  box-shadow: 0px 10px 15px var(--grayShadow);
+}
+.articles .add-article div textarea {
+  margin-top: 10px;
+}
+.articles .add-article button {
+  width: 100%;
+  font-family: "Albert Sans", sans-serif;
+  margin-top: 20px;
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: 0px 10px 15px var(--grayShadow);
 }/*# sourceMappingURL=index.css.map */
