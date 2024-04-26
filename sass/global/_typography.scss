@@ -1,3 +1,5 @@
+@use '../utils/' as u;
+
 /*** RESET ***/
 
 * {
@@ -13,6 +15,7 @@
 button {
     border: none;
     outline: none;
+    font-family: u.$font;
 }
 
 //Formulaire

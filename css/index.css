@@ -104,6 +104,7 @@ body {
 button {
   border: none;
   outline: none;
+  font-family: "Albert Sans", sans-serif;
 }
 
 .container {

@@ -4,4 +4,15 @@
   --whiteColor: #fff;
   --blackColor: #212121;
   --grayShadow: #dbd9d937;
+}
+
+.articles {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--grayShadow);
+}
+.articles .add-article {
+  background-color: var(--whiteColor);
 }/*# sourceMappingURL=addArticle.css.map */

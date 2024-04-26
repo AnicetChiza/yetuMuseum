@@ -1,1 +1,11 @@
 @use '../utils/' as u;
+.articles {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grayShadow);
+    .add-article {
+        background-color: var(--whiteColor);
+    }
+}
